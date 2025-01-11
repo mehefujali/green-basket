@@ -8,7 +8,7 @@ const Logo = ({ white }) => {
         src="https://res.cloudinary.com/dkal0omka/image/upload/v1736597894/green-basket-logo_jrijx7.png"
         alt=""
       />
-      <h1 className=" text-white text-2xl font-bold flex flex-col leading-none  ">
+      <h1 className={`${white?'text-white':'text-primary-color'}  text-2xl font-bold flex flex-col leading-none  `}>
         Green <span className=" font-light my-0">Basket</span>
       </h1>
     </div>
