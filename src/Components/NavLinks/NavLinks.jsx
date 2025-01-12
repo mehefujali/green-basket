@@ -13,8 +13,8 @@ const NavLinks = () => {
                               <NavLink className="flex gap-1 items-center text-xs  md:text-lg"> <BiSupport/> Contact Us</NavLink>
                         </div>
                         <div className=" w-fit relative">
-                              <div className="bg-primary-color animate__animated animate__flash animate__infinite	 w-2 h-2 rounded-full absolute -right-1 -top-1"></div>
-                              <div className=" bg-primary-color bg-opacity-10 text-primary-color px-2 rounded-sm  cursor-pointer select-none text-sm">Offers</div>
+                              <div className="bg-red-500 animate__animated animate__flash animate__infinite	 w-2 h-2 rounded-full absolute -right-1 -top-1"></div>
+                              <div className=" bg-red-500 bg-opacity-10 text-red-600 px-2 rounded-sm  cursor-pointer select-none text-sm">Offers</div>
                         </div>
                   </div>
             </div>

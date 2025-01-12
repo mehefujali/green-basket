@@ -1,16 +1,16 @@
-import MenuSidebar from "../../Components/MenuSidebar/MenuSidebar";
+import { Outlet } from "react-router-dom";
 import Navbar from "../../Components/Navbar/Navbar";
 import NavLinks from "../../Components/NavLinks/NavLinks";
 
 const Main = () => {
   return (
     <div>
-      <nav >
+      <nav>
         <Navbar />
         <NavLinks />
       </nav>
       <div>
-        <MenuSidebar />
+        <Outlet />
       </div>
     </div>
   );
