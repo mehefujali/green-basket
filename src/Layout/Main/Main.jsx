@@ -1,10 +1,14 @@
 import MenuSidebar from "../../Components/MenuSidebar/MenuSidebar";
 import Navbar from "../../Components/Navbar/Navbar";
+import NavLinks from "../../Components/NavLinks/NavLinks";
 
 const Main = () => {
   return (
     <div>
-      <Navbar />
+      <nav >
+        <Navbar />
+        <NavLinks />
+      </nav>
       <div>
         <MenuSidebar />
       </div>
