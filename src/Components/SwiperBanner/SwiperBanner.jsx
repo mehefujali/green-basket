@@ -16,7 +16,8 @@ const SwiperBanner = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiperBanner max-w-xs md:max-w-3xl lg:max-w-5xl"
+        
       >
         <SwiperSlide>
 
@@ -27,7 +28,7 @@ const SwiperBanner = () => {
         
         <SwiperSlide>
 
-            <div>
+            <div className=" w-full">
                   <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681245/image_1_fdvzst.webp" alt="" />
             </div>
         </SwiperSlide>
