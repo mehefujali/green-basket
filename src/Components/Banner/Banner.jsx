@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="  xl:max-w-3xl 2xl:max-w-5xl">
           <Swiper  />
         </div>
-        <div className="w-full  px-4 hidden xl:block">
+        <div className="w-full  px-4 ">
           <h1 className=" lg:text-sm   xl:text-lg 2xl:text-xl font-bold mb-4 bg-primary-color bg-opacity-10 px-3 rounded-sm">
             Latest Super Discount Active Coupon Code
           </h1>

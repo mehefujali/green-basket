@@ -28,7 +28,13 @@ const SwiperBanner = () => {
         
         <SwiperSlide>
 
-            <div className=" w-full">
+            <div className="">
+                  <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681245/image_1_fdvzst.webp" alt="" />
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+
+            <div className="">
                   <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681245/image_1_fdvzst.webp" alt="" />
             </div>
         </SwiperSlide>

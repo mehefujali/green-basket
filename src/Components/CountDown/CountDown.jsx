@@ -8,20 +8,20 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   } else {
     // Render the countdown
     return (
-      <div className="flex gap-2 text-primary-color">
-        <span className=" font-bold bg-primary-color bg-opacity-10 xl:p-2 py-0">
+      <div className="flex  text-primary-color">
+        <span className=" font-bold bg-primary-color bg-opacity-10 p-1 py-0">
           {days}
         </span>
         :
-        <span className=" font-bold bg-primary-color bg-opacity-10 xl:p-2 py-0">
+        <span className=" font-bold bg-primary-color bg-opacity-10 p-1 py-0">
           {hours}
         </span>
         :
-        <span className=" font-bold bg-primary-color bg-opacity-10 xl:p-2 py-0">
+        <span className=" font-bold bg-primary-color bg-opacity-10 p-1 py-0">
           {minutes}
         </span>
         :
-        <span className=" font-bold bg-primary-color bg-opacity-10 xl:p-2 py-0">
+        <span className=" font-bold bg-primary-color bg-opacity-10 p-1 py-0">
           {seconds}
         </span>
       </div>
