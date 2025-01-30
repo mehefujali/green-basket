@@ -29,13 +29,13 @@ const SwiperBanner = () => {
         <SwiperSlide>
 
             <div className="">
-                  <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681245/image_1_fdvzst.webp" alt="" />
+                  <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681245/image_ywu1n1.webp" alt="" />
             </div>
         </SwiperSlide>
         <SwiperSlide>
 
             <div className="">
-                  <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681245/image_1_fdvzst.webp" alt="" />
+                  <img src="https://res.cloudinary.com/dkal0omka/image/upload/v1736681244/image_2_tniry8.webp" alt="" />
             </div>
         </SwiperSlide>
         

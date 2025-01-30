@@ -18,8 +18,8 @@ const CuponCard = ({ title, off, cupon, sopingAmount, time, image }) => {
   };
   return (
     <div className="  ">
-      <div className=" flex  flex-col md:flex-row  mx-auto">
-        <div className="flex gap-2   shadow-sm shadow-gray-300 rounded-md  rounded-r-xl">
+      <div className=" flex   flex-col md:flex-row  mx-auto">
+        <div className="flex gap-2    shadow-sm shadow-gray-300 rounded-md  rounded-r-xl">
           <img
             className=" w-16 h-16 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28"
             src={image}
