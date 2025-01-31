@@ -17,7 +17,7 @@ const HomeCategories = () => {
       return data;
     },
   });
-  console.log(categories);
+
   return (
     <div className=" bg-primary-color/5  py-10 w-full mt-14">
       <SectionHeader
