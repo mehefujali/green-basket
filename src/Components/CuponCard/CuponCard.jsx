@@ -19,7 +19,7 @@ const CuponCard = ({ title, off, cupon, sopingAmount, time, image }) => {
   return (
     <div className="  ">
       <div className=" flex   flex-col md:flex-row  mx-auto">
-        <div className="flex gap-2    shadow-sm shadow-gray-300 rounded-md  rounded-r-xl">
+        <div className="flex gap-2    shadow-sm shadow-gray-300 bg-white rounded-md  rounded-r-xl">
           <img
             className=" w-16 h-16 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28"
             src={image}
@@ -42,7 +42,7 @@ const CuponCard = ({ title, off, cupon, sopingAmount, time, image }) => {
             </h1>
           </div>
         </div>
-        <div className=" p-2 px-4 md:w-44 shadow-sm shadow-gray-300 rounded-md border-t-2 md:border-l-2 border-dashed rounded-l-xl">
+        <div className=" p-2 px-4 md:w-44 shadow-sm shadow-gray-300 bg-white rounded-md border-t-2 md:border-l-2 border-dashed rounded-l-xl">
           <div
             onClick={() => handleCopyCupon(cupon)}
             className=" bg-primary-color cursor-pointer  bg-opacity-10 text-xs  mx-auto text-primary-color px-2 rounded-sm border-2 border-primary-color border-dashed w-fit flex flex-col items-center"

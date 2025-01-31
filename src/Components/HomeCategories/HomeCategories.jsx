@@ -4,7 +4,7 @@ import SectionHeader from "../../Shaired/SectionHeader";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -30,9 +30,12 @@ const HomeCategories = () => {
           spaceBetween={30}
           pagination={{
             clickable: true,
-            dynamicBullets: true ,
+            dynamicBullets: true,
           }}
-          modules={[Pagination]}
+          autoplay={{
+            delay:3000
+          }}
+          modules={[Pagination, Autoplay]}
           className="mySwiper"
           breakpoints={{
             320: {
@@ -57,13 +60,12 @@ const HomeCategories = () => {
               slidesPerView: 6,
               spaceBetween: 15,
             },
-
           }}
           loop={true}
         >
           {categories.map((category) => (
-            <SwiperSlide key={category?._id}>
-              <div className=" flex flex-1  items-center gap-2 bg-white w-fit p-3 px-5 rounded">
+            <SwiperSlide key={category?._id} className=" cursor-pointer">
+              <div className=" flex flex-1  items-center gap-2 bg-white hover:shadow-lg duration-75   w-fit p-3 px-5 rounded">
                 <img className=" w-14" src={category?.image} alt="" />
                 <div>
                   <h3>{category?.name}</h3>

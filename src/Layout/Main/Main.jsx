@@ -4,7 +4,7 @@ import NavLinks from "../../Components/NavLinks/NavLinks";
 
 const Main = () => {
   return (
-    <div>
+    <div className="bg-primary-color/5">
       <nav>
         <Navbar />
         <NavLinks />
